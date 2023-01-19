@@ -1,0 +1,16 @@
+body{
+    padding-top: 60px;
+    background-color: rgb(173 167 167);
+    margin-left:12px;
+    padding: 60px;
+}
+
+.card {
+    box-shadow: 7px -6px 10px 3px rgba(13, 13, 20, 0.856);
+    background-color:rgb(69, 95, 100);
+    padding: 12px;
+
+}
+.form{
+    background-color: rgb(23, 26, 26);
+}
