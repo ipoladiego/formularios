@@ -1,6 +1,6 @@
-body {
+.body {
     padding-top: 60px;
-    background-color: rgb(182, 111, 111);
+    background-color:  rgb(173 167 167);
     margin-left:12px;
     padding: 60px;
 }
@@ -10,4 +10,7 @@ body {
     background-color: rgb(167, 104, 104);
     padding: 12px;
 
+}
+.container {
+    
 }
