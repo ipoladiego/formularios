@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 .body {
     padding-top: 60px;
     background-color:  rgb(173 167 167);
@@ -6,9 +9,11 @@
 }
 
 .card {
+    display: flex;
     box-shadow: 7px -6px 10px 3px rgba(13, 13, 20, 0.856);
     background-color: rgb(167, 104, 104);
     padding: 12px;
+    align-items: center;
 
 }
 .container {
