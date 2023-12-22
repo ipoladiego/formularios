@@ -1,9 +1,9 @@
 <?php
 
-    $dbhost = "";   
-    $dbusername = "";
+    $dbhost = "Localhost";   
+    $dbusername = "root";
     $dbpassword = "";
-    $dbname = "";
+    $dbname = "formualario-index";
 
-    $conexao = new mysqli();
+    $conexao = new mysqli($dbhost,$dbusername,$dbpassword,$dbname);
 ?>

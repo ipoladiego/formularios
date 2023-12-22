@@ -1,3 +1,11 @@
+ <php 
+    if(isset($_POST['submit']))
+    {
+
+    }
+
+
+ ?>
  <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -20,7 +28,7 @@
               <p><b>Crie sua Conta</b></p>
               <small id="subtitulo" class="text-muted">É rapido e fácil</small>
               
-              <form id="form-index">
+              <form id="form-index" action="formulario.php" method="POST">
                   <div class="form-group">
                       <div class="col">
                         <label for="nome">Nome:<input id="nome" type="text"
